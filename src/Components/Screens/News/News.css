@@ -1,0 +1,29 @@
+.buttons-container-news {
+  margin-top: 20px;
+}
+.button-filter-news {
+  border: solid;
+  border-width: 1px;
+  border-color: #6f42c1;
+  background: none;
+  margin: 5px 5px;
+  border-radius: 20px;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: 0.3s;
+  height: 50px;
+  width: 130px;
+  color: #dee2e6;
+  font-size: 14px;
+}
+
+.button-filter-news:hover {
+  border: 1px solid #6f42c1;
+  transform: translateX(5px);
+}
+
+.active-filter-news {
+  background-color: #6f42c1;
+  color: #dee2e6;
+  transform: translateX(5px);
+}

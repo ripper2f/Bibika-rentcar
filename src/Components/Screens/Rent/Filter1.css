@@ -1,0 +1,120 @@
+.buttons-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.button-filter {
+  border: solid;
+  border-width: 1px;
+  border-color: #212529;
+  border-bottom-color: #6f42c1;
+  background: none;
+  margin: 5px 5px;
+  border-radius: 10px;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: 0.3s;
+  height: 50px;
+  width: 150px;
+  color: #dee2e6;
+}
+
+.button-filter:hover {
+  border: 1px solid #6f42c1;
+  transform: translateY(3px);
+}
+
+.active-filter {
+  background-color: #6f42c1;
+  color: #dee2e6;
+}
+
+.page-item {
+  background-color: #212529;
+  color: #6f42c1;
+  border-color: #6f42c1;
+}
+.page-item:focus {
+  background-color: #212529;
+  color: #6f42c1;
+  box-shadow: none;
+  border-color: #6f42c1;
+}
+.page-item:active {
+  background-color: #6f42c1;
+  color: #dee2e6;
+  box-shadow: none;
+  border-color: #6f42c1;
+}
+.page-item:hover {
+  background-color: #6f42c1;
+  color: #dee2e6;
+  border-color: #6f42c1;
+}
+.active-page {
+  background-color: #6f42c1 !important;
+  color: #dee2e6 !important;
+}
+.active-page:focus {
+  box-shadow: none;
+}
+
+.page-item-prev {
+  background-color: #212529;
+  color: #6f42c1;
+  border-color: #6f42c1;
+}
+.page-item-prev:focus {
+  background-color: #212529;
+  color: #6f42c1;
+  box-shadow: none;
+  border-color: #6f42c1;
+}
+.page-item-prev:active {
+  background-color: #6f42c1;
+  color: #dee2e6;
+  box-shadow: none;
+  border-color: #6f42c1;
+}
+.page-item-prev:hover {
+  background-color: #212529;
+  color: #dee2e6;
+  border-color: #6f42c1;
+}
+
+.page-item-next {
+  background-color: #212529;
+  color: #6f42c1;
+  border-color: #6f42c1;
+}
+.page-item-next:active {
+  background-color: #6f42c1;
+  color: #dee2e6;
+  box-shadow: none;
+  border-color: #6f42c1;
+}
+.page-item-next:focus {
+  background-color: #212529;
+  color: #6f42c1;
+  box-shadow: none;
+  border-color: #6f42c1;
+}
+.page-item-next:hover {
+  background-color: #212529;
+  color: #dee2e6;
+  border-color: #6f42c1;
+}
+
+.pag-cont {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.text-bb {
+  color: #6c757d;
+  font-size: 12px;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1300px;
+}

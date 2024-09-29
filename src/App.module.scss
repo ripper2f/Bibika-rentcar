@@ -1,0 +1,814 @@
+$main: #212529;
+$two: #6f42c1;
+$three: #6c757d;
+$four: #dee2e6;
+
+// All
+.div {
+  background-color: $main;
+}
+.h {
+  color: $four;
+  text-align: center;
+  margin-top: 25px;
+}
+.hh {
+  color: $three;
+  margin-top: 25px;
+}
+.container {
+  padding-top: 30px;
+  color: $four;
+}
+
+// Home-carousel
+.carousel {
+  box-shadow: 1px 1px 20px #000;
+  border-radius: 30px;
+}
+.crouselitem {
+  opacity: 0;
+  transition: opacity 0.5s !important;
+}
+.carouselitem.active {
+  opacity: 1;
+  transition: opacity 0.5s !important;
+}
+.carouselimg {
+  display: block;
+  width: 100%;
+  border-radius: 30px;
+  animation: 3s ease;
+}
+.carouselcaption {
+  color: $four;
+}
+
+// Home-newscard
+.linkhome {
+  text-decoration: none;
+  color: $four;
+  transition: 0.3s;
+}
+.linkhome:hover {
+  color: $three;
+}
+.cardnewsimghome {
+  object-fit: cover;
+  height: 290px;
+  width: 600px;
+  border-radius: 30px;
+  opacity: 0.2;
+  filter: blur(1px);
+}
+.cardnewshome {
+  background-color: $main;
+  display: inline-block;
+  color: $four;
+  border: none;
+  box-shadow: 1px 1px 20px #000;
+  border-radius: 30px;
+  margin-top: 25px;
+  margin: 14px;
+  transition: 0.3s;
+}
+.cardnewshome:hover {
+  transform: scale(1.01);
+}
+
+// Home-carcard
+.cardnew {
+  background-color: $main;
+  color: $four;
+  margin: 10px;
+  display: inline-flex;
+  border: 0;
+  border-radius: 10px;
+  width: 290px;
+  transition: 0.3s;
+}
+.cardnew:hover {
+  transform: translateY(5px);
+  box-shadow: 1px 1px 20px #000;
+  transition: 0.3s;
+}
+.cardnewimg {
+  object-fit: cover;
+  height: 200px;
+  border-radius: 10px;
+}
+.cardnewlink {
+  color: $two;
+  text-decoration: none;
+}
+.cardtext {
+  color: $three;
+  font-size: 12;
+}
+.caritemhomeimg {
+  max-height: 15px;
+  max-width: 15px;
+  margin-right: 5px;
+  margin-bottom: 4px;
+}
+
+// Home-advantages
+.cardadvantages {
+  background-color: $main;
+  color: $four;
+  border: none;
+}
+.cardadvantagesimg {
+  height: 50px;
+  width: 50px;
+  margin: auto;
+}
+
+// News
+.newsdate {
+  font-size: 12px;
+  color: $three;
+  text-align: end;
+  margin-top: 10px;
+}
+.badgenews {
+  position: absolute;
+  margin: 10px;
+  background: $two !important;
+}
+.cardnewslink {
+  color: $two;
+  text-decoration: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.cardnewslink:hover {
+  color: #423189;
+}
+.cardnews {
+  background-color: $main;
+  display: inline-block;
+  color: $four;
+  border: none;
+  box-shadow: 1px 1px 20px #000;
+  border-radius: 30px;
+  margin-top: 25px;
+  margin: 14px;
+  transition: 0.3s;
+}
+.cardnews:hover {
+  transform: scale(1.01);
+}
+.cardnewsimg {
+  object-fit: cover;
+  height: 290px;
+  width: 290px;
+  border-radius: 30px;
+  opacity: 0.2;
+  filter: blur(1px);
+}
+.cardnewsimg2 {
+  object-fit: cover;
+  height: 200px;
+  border-radius: 30px;
+  box-shadow: 1px 1px 20px #000;
+}
+
+// Header
+.navbarbrand {
+  height: 71px;
+  width: 200px;
+}
+.icon {
+  height: 25px;
+  width: 25px;
+  background-image: url("../public/image/iconhome8.png");
+  background-size: cover;
+  background-position: center;
+  transition: 0.3s;
+}
+.icon:hover {
+  background-image: url("../public/image/iconhome8reverse.png");
+}
+.icon:active {
+  transform: translateY(2px);
+}
+
+// Footer
+.navlinkfooter {
+  color: $three;
+  transition: 0.3s;
+  text-decoration: none;
+  display: block;
+}
+.navlinkfooter:hover {
+  color: #adb5bd;
+  transition: 0.3s;
+}
+.footertext {
+  color: $three;
+  padding-inline-end: 40px;
+  display: inline;
+}
+.iconfootertg {
+  height: 35px;
+  width: 35px;
+  background-image: url("../public/image/iconfooter1.png");
+  background-size: cover;
+  background-position: center;
+  transition: 0.3s;
+  margin: 10px;
+}
+.iconfootertg:hover {
+  background-image: url("../public/image/iconfooter1reverse.png");
+}
+.iconfootertg:active {
+  transform: translateY(2px);
+}
+.iconfootervk {
+  height: 35px;
+  width: 35px;
+  background-image: url("../public/image/iconfooter2.png");
+  background-size: cover;
+  background-position: center;
+  transition: 0.3s;
+  margin: 10px;
+}
+.iconfootervk:hover {
+  background-image: url("../public/image/iconfooter2reverse.png");
+}
+.iconfootervk:active {
+  transform: translateY(2px);
+}
+
+// About
+.abouttext {
+  text-align: center;
+  padding-top: 30px;
+}
+.aboutcard {
+  background-color: $two;
+  color: $four;
+  border-radius: 30px;
+  display: inline-flex;
+  width: 300px;
+  height: 750px;
+  margin: 11px;
+  box-shadow: 1px 1px 20px #000;
+}
+.aboutcardimg {
+  height: 50px;
+  margin-top: 10px;
+}
+.aboutimg {
+  height: 460px;
+  width: 300px;
+  object-fit: cover;
+  border-radius: 30px;
+  box-shadow: 1px 1px 30px #000;
+  margin-top: 10px;
+}
+.aboutcard2 {
+  background: none;
+  border-color: $two;
+  border-radius: 10px;
+  border-style: outset;
+  border-width: 2px;
+  color: $four;
+  width: 450px;
+  display: inline-block;
+  padding: 10px;
+  margin: 13px;
+  box-shadow: 1px 1px 20px #000;
+}
+.aboutcard3 {
+  background-color: $two;
+  border: none;
+  width: 250px;
+  padding: 10px;
+  text-align: center;
+  color: $four;
+  box-shadow: 1px 1px 20px #000;
+  margin-top: 20px;
+}
+.aboutcardsubtitle {
+  margin: 5px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: $main;
+  color: $two;
+}
+.aboutcard4 {
+  background: $main;
+  border-color: $two;
+  border-radius: 10px;
+  color: $four;
+  width: 200px;
+  padding: 15px;
+  margin-top: 20px;
+  box-shadow: 1px 1px 20px #000;
+}
+.aboutcard5 {
+  background: $two;
+  border-color: $two;
+  border-radius: 10px;
+  color: $four;
+  width: 270px;
+  padding: 15px;
+  margin-top: 20px;
+  box-shadow: 1px 1px 20px #000;
+}
+.aboutcard6 {
+  background: $main;
+  border-color: $two;
+  border-radius: 10px;
+  color: $four;
+  padding: 15px;
+  margin-top: 20px;
+  box-shadow: 1px 1px 20px #000;
+}
+.aboutcard7 {
+  background: $two;
+  border-color: $two;
+  border-radius: 10px;
+  color: $four;
+  padding: 15px;
+  margin-top: 20px;
+  box-shadow: 1px 1px 20px #000;
+}
+.aboutcard8 {
+  background: none;
+  border: none;
+  color: $four;
+}
+.aboutcardimg2 {
+  height: 50px;
+  width: 50px;
+  margin: auto;
+}
+.line {
+  position: absolute;
+  border-left: 3px solid $two;
+  height: 339px;
+  margin-top: 100px;
+}
+.line2 {
+  position: absolute;
+  border-left: 3px solid $two;
+  height: 50px;
+  margin-top: 80px;
+}
+.line3 {
+  position: absolute;
+  border-left: 3px solid $two;
+  height: 269px;
+  margin-top: 170px;
+}
+.line4 {
+  position: absolute;
+  border-bottom: 3px solid $two;
+  width: 495px;
+  margin-top: 50px;
+}
+.tabsnav {
+  display: block;
+}
+
+.tabslink {
+  display: block;
+  color: $two;
+  text-decoration: none;
+  padding: 10px;
+  transition: 0.3s;
+  background-color: $main;
+}
+.tabslink:hover {
+  color: #423189;
+  transition: 0.3s;
+}
+
+// Sdat
+.sdatcard {
+  background: none;
+  border-color: $three;
+  border-radius: 30px;
+  border-width: 2px;
+  color: $four;
+  margin: 10px;
+  width: 400px;
+  box-shadow: 1px 1px 20px #000;
+}
+.sdatcard img {
+  width: 50px;
+  height: 50px;
+  margin: auto;
+  margin-top: 10px;
+}
+.sdatcard2 {
+  background: none;
+  border-color: $three;
+  border-radius: 30px;
+  border-width: 2px;
+  color: $four;
+  margin: 10px;
+  width: 500px;
+  box-shadow: 1px 1px 20px #000;
+}
+.sdatcard3 {
+  background-color: $two;
+  border: none;
+  border-radius: 30px;
+  color: $four;
+  width: 400px;
+  padding: 20px;
+  box-shadow: 1px 1px 10px #000;
+}
+.sdatcard4 {
+  background: none;
+  border: none;
+  color: $four;
+  height: 150px;
+}
+.sdatcard4 img {
+  height: 40px;
+  width: 40px;
+  margin-top: 10px;
+}
+.sdatimg {
+  height: 400px;
+  border-radius: 30px;
+  box-shadow: 1px 1px 30px #000;
+}
+.sdatimg2 {
+  height: 400px;
+  border-radius: 30px;
+  box-shadow: 1px 1px 30px #000;
+  margin-top: 10px;
+}
+
+// Rent-card
+.cardrent {
+  background-color: $main;
+  color: $four;
+  margin: 10px;
+  display: inline-flex;
+  border: 0;
+  border-radius: 10px;
+  width: 400px;
+  transition: 0.3s;
+}
+.cardrent:hover {
+  transform: translateY(5px);
+  box-shadow: 1px 1px 20px #000;
+  transition: 0.3s;
+}
+.cardrent img {
+  object-fit: cover;
+  height: 200px;
+  border-radius: 10px;
+}
+.cardrentlink {
+  color: $two;
+  text-decoration: none;
+}
+
+// Rent-carinfo
+.iconrent {
+  width: 30px;
+  height: 30px;
+  margin: 10px;
+}
+.rentbadge {
+  border: none;
+  outline: none;
+  background: none;
+  color: $two;
+  font-size: 12px;
+  margin-left: 10px;
+}
+
+// FAQ
+.cardfaqimg3 {
+  width: 75px;
+  height: 75px;
+  background-image: url("../public/image/faqicon3.png");
+  background-size: cover;
+  background-position: center;
+  transition: 0.3s;
+  text-decoration: none;
+  color: $four;
+  padding-top: 75px;
+  white-space: nowrap;
+  display: flex;
+  justify-content: center;
+}
+.cardfaqimg3:hover {
+  background-image: url("../public/image/faqicon3reverse.png");
+  transform: translateY(5px);
+  color: $three;
+}
+.cardfaqimg2 {
+  width: 75px;
+  height: 75px;
+  background-image: url("../public/image/faqicon2.png");
+  background-size: cover;
+  background-position: center;
+  transition: 0.3s;
+  text-decoration: none;
+  color: $four;
+  height: 75px;
+  width: 75px;
+  padding-top: 75px;
+  white-space: nowrap;
+  display: flex;
+  justify-content: center;
+}
+.cardfaqimg2:hover {
+  background-image: url("../public/image/faqicon2reverse.png");
+  transform: translateY(5px);
+  color: $three;
+}
+.cardfaqimg1 {
+  width: 75px;
+  height: 75px;
+  background-image: url("../public/image/faqicon1.png");
+  background-size: cover;
+  background-position: center;
+  transition: 0.3s;
+  text-decoration: none;
+  color: $four;
+  height: 75px;
+  width: 75px;
+  padding-top: 75px;
+  white-space: nowrap;
+  display: flex;
+  justify-content: center;
+}
+.cardfaqimg1:hover {
+  background-image: url("../public/image/faqicon1reverse.png");
+  transform: translateY(5px);
+  color: $three;
+}
+.cardfaqimg4 {
+  width: 75px;
+  height: 75px;
+  background-image: url("../public/image/faqicon4.png");
+  background-size: cover;
+  background-position: center;
+  transition: 0.3s;
+  text-decoration: none;
+  color: $four;
+  height: 75px;
+  width: 75px;
+  padding-top: 75px;
+  white-space: nowrap;
+  display: flex;
+  justify-content: center;
+}
+.cardfaqimg4:hover {
+  background-image: url("../public/image/faqicon4reverse.png");
+  transform: translateY(5px);
+  color: $three;
+}
+.cardfaqimg5 {
+  background-image: url("../public/image/faqicon5.png");
+  background-size: cover;
+  transition: 0.3s;
+  text-decoration: none;
+  color: $four;
+  height: 75px;
+  width: 75px;
+  padding-top: 75px;
+  white-space: nowrap;
+  display: flex;
+  justify-content: center;
+}
+.cardfaqimg5:hover {
+  background-image: url("../public/image/faqicon5reverse.png");
+  transform: translateY(5px);
+  color: $three;
+}
+.backlink {
+  text-decoration: none;
+  padding-top: 10px;
+  color: $four;
+  transition: 0.3s;
+}
+.backlink:hover {
+  color: $three;
+}
+.accordion {
+  background: none;
+  padding: 20px;
+}
+.accordionheader {
+  background: $two;
+  border-radius: 10px;
+  padding: 10px;
+}
+.accordionbody {
+  padding: 10px;
+  margin-top: -17px;
+  margin-bottom: 10px;
+  border: double;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-width: 2px;
+  border-color: $two;
+  transition: 1s;
+}
+
+// Profile
+.profilecard {
+  border: double;
+  border-width: 2px;
+  border-radius: 10px;
+  border-color: $two;
+  margin: 10px;
+  padding: 5px;
+}
+.profilehistory {
+  width: 100px;
+  border-radius: 50%;
+  border: solid;
+  border-color: $two;
+  border-width: 1px;
+  object-fit: cover;
+  margin-top: 5px;
+  box-shadow: 1px 1px 10px #000;
+}
+.activecard {
+  background-color: $main;
+  color: $four;
+  border: solid;
+  border-width: 2px;
+  border-color: $two;
+  width: 320px;
+  box-shadow: 1px 1px 20px #000;
+}
+.activecard img {
+  object-fit: cover;
+  height: 200px;
+}
+.profiletext {
+  padding: 10px;
+  color: $four;
+  background-color: $two;
+  border-radius: 10px;
+}
+
+// 404
+.divnf {
+  background: url("../public/image/cars12.jpg") rgba(0, 0, 0, 0.5);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: multiply;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+.nfh1 {
+  margin-top: 20%;
+  color: $four;
+  font-size: 100px;
+}
+.nfh2 {
+  color: $four;
+  font-size: 40px;
+}
+.backlinknf {
+  display: inline-block;
+  text-decoration: none;
+  margin-top: 40px;
+  color: $four;
+  transition: 0.3s;
+}
+.backlinknf:hover {
+  color: $three;
+}
+
+// NF Filter
+.cardnf {
+  border: none;
+  background: none;
+  color: $four;
+}
+.cardnf img {
+  height: 70px;
+  width: 70px;
+}
+.cardnflink {
+  text-decoration: none;
+  color: $two;
+  transition: 0.3s;
+}
+.cardnflink:hover {
+  color: #423189;
+}
+
+// Buttons
+.button {
+  background-color: $main;
+  transition: 0.3s;
+  color: $four;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-style: solid;
+  border-color: $two;
+  border-radius: 5px;
+  border-width: 2px;
+  transition: 0.3s;
+  text-decoration: none;
+}
+.button:hover {
+  background-color: $two;
+  border-color: $main;
+  transition: 0.3s;
+}
+.button:active {
+  background-color: $two;
+  transform: translateY(2px);
+}
+
+// Modal-header, Modal-sdat, Modal-rent
+.modal {
+  transition: 0.2s;
+}
+.modalheader {
+  background-color: $main;
+  color: $four;
+  justify-content: center;
+  border: none;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+.modalbody {
+  background-color: $main;
+  color: $four;
+  justify-content: center;
+}
+.modalfooter {
+  background-color: $main;
+  color: $four;
+  justify-content: center;
+  border: none;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+// Modal-news
+.modalheadernews {
+  background-color: $main;
+  display: block;
+  text-align: center;
+  color: $four;
+  border: none;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+.modalbodynews {
+  background-color: $main;
+  color: $four;
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+
+// Form
+.formcontrol {
+  border-color: $main;
+  border-bottom-color: $two;
+  border-radius: 0;
+  transition: 0.3s;
+  color: $four;
+  background-color: $main;
+  appearance: none;
+  -moz-appearance: textfield;
+}
+.formcontrol::placeholder {
+  color: $three;
+}
+.formcontrol:hover {
+  appearance: none;
+  -moz-appearance: textfield;
+}
+.formcontrol:focus {
+  box-shadow: 1px 1px 5px $two;
+  border-color: $two;
+  transition: 0.3s;
+  background-color: $main;
+  color: $four;
+  appearance: none;
+  -moz-appearance: textfield;
+}
+.formcontrol::-webkit-outer-spin-button,
+.formcontrol::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.formtext {
+  padding-top: 5px;
+  color: $three;
+  font-size: 12px;
+}
